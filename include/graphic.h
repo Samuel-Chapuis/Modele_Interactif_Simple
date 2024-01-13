@@ -8,6 +8,9 @@
 using namespace std; 
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+int initialisation_OpenGL();
+void closeOpenGl();
+GLFWwindow* creerFenetre(int largeur, int hauteur, const char* titre, GLFWmonitor* moniteur=NULL, GLFWwindow* fenetrePartagee=NULL);
 int graph1();
 
 #endif
